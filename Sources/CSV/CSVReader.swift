@@ -81,8 +81,8 @@ public class CSVReader {
 
 extension CSVReader {
 
-    public static let defaultHasHeaderRow: Bool = false
-    public static let defaultTrimFields: Bool = false
+    public static let defaultHasHeaderRow: Bool = true 
+    public static let defaultTrimFields: Bool = true 
     public static let defaultDelimiter: UnicodeScalar = ","
     public static let defaultWhitespaces: CharacterSet = .whitespaces
 
